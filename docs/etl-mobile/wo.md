@@ -1,5 +1,5 @@
 ---
-id: wo
+id: work-order
 title: Work Order
 description: Panduan aplikasi ETL Mobile
 tags: [etl-mobile, wo]

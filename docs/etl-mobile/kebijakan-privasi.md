@@ -1,5 +1,5 @@
 ---
-id: privacy-policy
+id: kebijakan-privasi
 title: Kebijakan Privasi
 description: Informasi privasi pengguna aplikasi ETOS Teknisi Lapangan
 tags: [etl-Mobile, kebijakan-privasi]

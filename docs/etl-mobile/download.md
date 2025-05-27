@@ -1,5 +1,5 @@
 ---
-id: home
+id: download
 title: Download
 description: Panduan login ke aplikasi ETL Mobile
 tags: [etl-mobile, download]

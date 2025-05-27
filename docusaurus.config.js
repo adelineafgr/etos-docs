@@ -15,10 +15,10 @@ const config = {
   favicon: 'img/logo.ico',
 
   // Set the production url of your site here
-  url: 'https://github.com/adelineafgr/etos-docs.github.io',
+  url: 'https://adelineafgr.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/etos-docs/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -37,73 +37,36 @@ const config = {
   },
 
   presets: [
-  [
-    'classic',
-    {
-      blog: {
-        showReadingTime: true,
-        feedOptions: {
-          type: ['rss', 'atom'],
-          xslt: true,
+    [
+      'classic',
+      /** @type {import('@docusaurus/preset-classic').Options} */
+      ({
+        docs: {
+          sidebarPath: './sidebars.js',
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          editUrl:
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        editUrl:
-          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        onInlineTags: 'warn',
-        onInlineAuthors: 'warn',
-        onUntruncatedBlogPosts: 'warn',
-      },
-      theme: {
-        customCss: './src/css/custom.css',
-      },
-    },
-  ],
-],
-
-  plugins: [
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'etl-mobile',
-        path: 'docs/etl-mobile',
-        routeBasePath: 'etl-mobile',
-        sidebarPath: require.resolve('./sidebars/etl-mobile-sidebar.js'),
-      },
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'etl-standby',
-        path: 'docs/etl-standby',
-        routeBasePath: 'etl-standby',
-        sidebarPath: require.resolve('./sidebars/etl-standby-sidebar.js'),
-      },
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'etos-stars',
-        path: 'docs/etos-stars',
-        routeBasePath: 'etos-stars',
-        sidebarPath: require.resolve('./sidebars/etos-stars-sidebar.js'),
-      },
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'erp-v1',
-        path: 'docs/erp-v1',
-        routeBasePath: 'erp-v1',
-        sidebarPath: require.resolve('./sidebars/erp-v1-sidebar.js'),
-      },
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'erp-v2',
-        path: 'docs/erp-v2',
-        routeBasePath: 'erp-v2',
-        sidebarPath: require.resolve('./sidebars/erp-v2-sidebar.js'),
-      },
+        blog: {
+          showReadingTime: true,
+          feedOptions: {
+            type: ['rss', 'atom'],
+            xslt: true,
+          },
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          editUrl:
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // Useful options to enforce blogging best practices
+          onInlineTags: 'warn',
+          onInlineAuthors: 'warn',
+          onUntruncatedBlogPosts: 'warn',
+        },
+        theme: {
+          customCss: './src/css/custom.css',
+        },
+      }),
     ],
   ],
 
@@ -121,39 +84,15 @@ const config = {
         },
         items: [
           {
-            to: '/etl-mobile/overview',
-            label: 'ETL Mobile',
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
             position: 'left',
-            activeBaseRegex: '/etl-mobile/',
-          },
-          {
-            to: '/etl-standby/overview',
-            label: 'ETL Standby',
-            position: 'left',
-            activeBaseRegex: '/etl-standby/',
-          },
-          {
-            to: '/etos-stars/overview',
-            label: 'ETOS STARS',
-            position: 'left',
-            activeBaseRegex: '/etos-stars/',
-          },
-          {
-            to: '/erp-v1/overview',
-            label: 'ERP-V1',
-            position: 'left',
-            activeBaseRegex: '/erp-v2/',
-          },
-          {
-            to: '/erp-v2/overview',
-            label: 'ERP-V2',
-            position: 'left',
-            activeBaseRegex: '/erp-v2/',
+            label: 'Tutorial',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://erp.etos.app/helpdesk/tiket/list',
-            label: 'Helpdesk',
+            href: 'https://github.com/facebook/docusaurus',
+            label: 'GitHub',
             position: 'right',
           },
         ],

@@ -1,5 +1,5 @@
 ---
-id: checkin
+id: check-in
 title: Check-in
 description: Panduan aplikasi ETL Mobile
 tags: [etl-mobile, checkin]
