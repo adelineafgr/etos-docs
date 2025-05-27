@@ -2,6 +2,8 @@
   "name": "it-docs",
   "version": "0.0.0",
   "private": true,
+  "homepage": "https://adelineafgr.github.io/etos-docs/",
+
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
