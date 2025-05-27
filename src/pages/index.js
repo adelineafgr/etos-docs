@@ -20,27 +20,27 @@ function HomepageHeader() {
 
     <div className={styles.buttons}>
       <div className={styles.buttonWrapper}>
-        <Link className="button button--secondary button--lg" to="/etl-mobile/overview">
+        <Link className="button button--secondary button--lg" to="/docs/etl-mobile/overview">
           ETL Mobile 📱
         </Link>
       </div>
       <div className={styles.buttonWrapper}>
-        <Link className="button button--secondary button--lg" to="/etl-standby/overview">
+        <Link className="button button--secondary button--lg" to="/docs/etl-standby/overview">
           ETL Standby 🕒
         </Link>
       </div>
       <div className={styles.buttonWrapper}>
-        <Link className="button button--secondary button--lg" to="/etos-stars/overview">
+        <Link className="button button--secondary button--lg" to="/docs/etos-stars/overview">
           ETOS STARS 🌟
         </Link>
       </div>
       <div className={styles.buttonWrapper}>
-        <Link className="button button--secondary button--lg" to="/erp-v1/overview">
+        <Link className="button button--secondary button--lg" to="/docs/erp-v1/overview">
           ERP-V1 📊
         </Link>
       </div>
       <div className={styles.buttonWrapper}>
-        <Link className="button button--secondary button--lg" to="/erp-v2/overview">
+        <Link className="button button--secondary button--lg" to="/docs/erp-v2/overview">
           ERP-V2 📈
         </Link>
       </div>
