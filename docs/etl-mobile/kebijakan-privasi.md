@@ -2,7 +2,7 @@
 id: kebijakan-privasi
 title: Kebijakan Privasi
 description: Informasi privasi pengguna aplikasi ETOS Teknisi Lapangan
-tags: [etl-Mobile, kebijakan-privasi]
+tags: [etl-mobile, kebijakan-privasi]
 sidebar_position: 2
 ---
 

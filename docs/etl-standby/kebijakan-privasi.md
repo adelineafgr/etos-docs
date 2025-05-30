@@ -1,5 +1,5 @@
 ---
-id: privacy-policy
+id: kebijakan-privasi
 title: Kebijakan Privasi
 description: Informasi privasi pengguna aplikasi ETL Standby
 tags: [etl-standby, kebijakan-privasi]

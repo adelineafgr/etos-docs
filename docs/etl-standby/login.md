@@ -1,5 +1,5 @@
 ---
-id: persiapan-awal
+id: login
 title: Login
 description: Panduan login ke aplikasi ETL Standby
 tags: [etl-standby, login]

@@ -1,7 +1,7 @@
 ---
 id: login
 title: Login
-tags: [etos-stars, overview]
+tags: [etos-stars, login]
 sidebar_position: 2
 ---
 ![Login](./img/login.png)

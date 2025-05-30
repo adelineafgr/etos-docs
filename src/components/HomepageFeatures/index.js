@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Kenali Produk Kami',
-    img: '/img/about-us.jpg',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
         Sistem ETOS memiliki beberapa aplikasi terintegrasi yang dirancang untuk mendukung operasional proyek lapangan hingga manajemen kantor. Setiap aplikasi memiliki dokumentasi lengkap untuk memudahkan pengguna.
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'Akses Cepat ke Modul',
-    img: '/img/akses-cepat.jpg',
+    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
         Mulai dari ETL Mobile untuk operator lapangan hingga ERP-V2 untuk pengelolaan data proyek secara menyeluruh—akses semua panduan di sini.
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'Bekerja Lebih Mudah Bersama Tim',
-    img: '/img/kerjasama.jpg',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
         Dokumentasi ini dibuat untuk mendukung pemahaman tim IT, engineering, hingga manajemen dalam menjalankan sistem dengan lancar dan efisien
@@ -32,11 +32,11 @@ const FeatureList = [
   },
 ];
 
-function Feature({img, title, description}) {
+function Feature({Svg, title, description}) {
   return (
-     <div className={clsx('col col--4')}>
+    <div className={clsx('col col--4')}>
       <div className="text--center">
-        <img src={img} className={styles.featureImg} alt={title} />
+        <Svg className={styles.featureSvg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
