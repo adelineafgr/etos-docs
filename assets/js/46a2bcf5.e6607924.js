@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdoc=self.webpackChunkdoc||[]).push([[6966],{3532:s=>{s.exports=JSON.parse('{"tag":{"label":"dashboard","permalink":"/etos-docs/etos-stars/tags/dashboard","allTagsPath":"/etos-docs/etos-stars/tags","count":1,"items":[{"id":"dashboard","title":"Dashboard","description":"Login","permalink":"/etos-docs/etos-stars/dashboard"}],"unlisted":false}}')}}]);

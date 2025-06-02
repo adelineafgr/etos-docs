@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdoc=self.webpackChunkdoc||[]).push([[9711],{6238:e=>{e.exports=JSON.parse('{"tags":[{"label":"etl-standby","permalink":"/etos-docs/erp-v1/tags/etl-standby","count":1},{"label":"overview","permalink":"/etos-docs/erp-v1/tags/overview","count":1}]}')}}]);
