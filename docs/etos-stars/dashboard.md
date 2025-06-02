@@ -2,7 +2,6 @@
 id: dashboard
 title: Dashboard
 tags: [etos-stars, dashboard]
-sidebar_position: 3
 ---
 ![Login](./img/home.png)
 

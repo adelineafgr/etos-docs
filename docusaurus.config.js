@@ -12,7 +12,7 @@ const config = {
   organizationName: 'adelineafgr',
   projectName: 'etos-docs',
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {

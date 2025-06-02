@@ -7,7 +7,8 @@ const sidebars = {
     {
       type: 'category',
       label: 'ETOS STARS',
-      items: ['overview'], // sesuaikan dengan file .md kamu
+      collapsed: false,
+      items: ['kebijakan-privasi','dashboard','login','checkin','checkin-diluar-jarak','checkout','checkout-diluar-jarak'], // sesuaikan dengan file .md kamu
     },
   ],
 };

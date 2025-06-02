@@ -2,7 +2,6 @@
 id: overview
 title: Overview
 tags: [etos-stars, overview]
-sidebar_position: 1
 ---
 
 **Aplikasi Absen Karyawan** adalah aplikasi mobile yang digunakan untuk mencatat kehadiran karyawan, pengajuan cuti, izin, sakit, serta laporan perjalanan dinas menggunakan layanan GoCorp. Aplikasi ini dirancang untuk memudahkan proses administratif HR dan mendukung keakuratan data kehadiran secara real-time.

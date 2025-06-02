@@ -5,7 +5,7 @@ description: Panduan login ke aplikasi ETL Standby
 tags: [etl-standby, jadwal]
 sidebar_position: 5
 ---
-:::notes
+:::note
 **Buat Jadwal** harus dilakukan mode online dengan jaringan data/wifi yang stabil
 :::
 
