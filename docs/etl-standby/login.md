@@ -10,8 +10,7 @@ sidebar_position: 3
 
 ![Login](./img/login.png)
 
-3. Tekan tombol `Login`
-4. Setelah berhasil login, Anda akan diarahkan ke halaman utama aplikasi yang mungkin menampilkan daftar pekerjaan atau informasi lainnya
+3. Klik `Login`
 
 :::note
 Bagi operator yang belum memiliki akun, silahkan koordinasi dengan SPV untuk minta didaftarkan ke bagian HR (Human Resources)

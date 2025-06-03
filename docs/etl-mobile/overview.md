@@ -6,7 +6,7 @@ sidebar_position: 1
 ---
 **ETL Mobile** tools input Work Order atau laporan pekerjaan yang digunakan oleh operator sebagai pengganti Work Order kertas. Aplikasi ini bisa berjalan dalam mode offline (tanpa jaringan) saat isi WO dengan catatan SPKO telah di download sebelumnya. 
 
-Data SPKO itu tersimpan di storage smartphone, sehingga apabila smartphone hilang, rusak atau apapun yang menyebabkan data aplikasi terhapus, maka data SPKO akan hilang, mohon sangat hati-hati, dan segara upload data SPKO setelah pekerjaan selesai
+Data SPKO tersimpan di storage smartphone, sehingga apabila smartphone hilang, rusak atau apapun yang menyebabkan data aplikasi terhapus, maka data SPKO akan hilang, mohon sangat hati-hati, dan segara upload data SPKO setelah pekerjaan selesai
 
 Aplikasi ini terintegrasi dengan ERP, sehingga data yang diupload akan tersimpan di server ERP.
 
