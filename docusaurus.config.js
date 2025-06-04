@@ -11,6 +11,7 @@ const config = {
   baseUrl: '/etos-docs/',
   organizationName: 'adelineafgr',
   projectName: 'etos-docs',
+  trailingSlash: false,
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
