@@ -31,8 +31,38 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Company',
+      items: ['company/profile','company/pengumuman','company/perizinan','company/contract','company/training','company/ga'],
+    },
+    {
+      type: 'category',
+      label: 'Vendor',
+      items: ['vendor/vendor'],
+    },
+    {
+      type: 'category',
+      label: 'Purchasing',
+      items: ['purchasing/model-limit-request','purchasing/request-global','purchasing/po'],
+    },
+    {
+      type: 'category',
+      label: 'Penawaran',
+      items: ['penawaran/kontak','penawaran/prospek','penawaran/survey','penawaran/penawaran','penawaran/pengaturan'],
+    },
+    {
+      type: 'category',
+      label: 'Pelanggan',
+      items: ['pelanggan/daftar-pelanggan','pelanggan/pelanggan-aktif'],
+    },
+    {
+      type: 'category',
       label: 'Kontrak Lokasi',
       items: ['kontrak-lokasi/cico-mode','kontrak-lokasi/kontak-pic-multiple', 'kontrak-lokasi/stock-opname','kontrak-lokasi/request-pindah-jadwal'], 
+    },
+    {
+      type: 'category',
+      label: 'Work Order',
+      items: ['wo/dashboard','wo/mobile','wo/standby','wo/rekap','wo/upload','wo/hama-jenis-kontrak','wo/hama-perangkap'],
     },
   ],
 };
