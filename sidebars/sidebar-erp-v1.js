@@ -27,7 +27,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'HR Management',
-      items: ['hrm/notes', 'hrm/warning-letter','hrm/promotion','hrm/termination','hrm/resignation','hrm/leave','hrm/attendance','hrm/overtime','hrm/shift'],
+      items: ['hrm/notes', 'hrm/warning-letter','hrm/promotion','hrm/termination'],
     },
     {
       type: 'category',
@@ -42,12 +42,12 @@ const sidebars = {
     {
       type: 'category',
       label: 'Settings',
-      items: ['settings/employee-status','settingg/warning','settings/license'],
+      items: ['settings/employee-status','settings/warning','settings/license'],
     },
     {
       type: 'category',
       label: 'Calendar',
-      items: ['cal/leave','cal/overtime','cal/attendance','cal/on-duty','çal/setting'],
+      items: ['cal/leave','cal/overtime','cal/attendance','cal/on-duty','cal/setting'],
     },
     {
       type: 'category',
@@ -57,7 +57,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Account',
-      items: ['acc/es', 'acc/ca', 'acc/petty-cash', 'ac/billing','acc/manual-payment','acc/bank-account'],
+      items: ['acc/es', 'acc/ca', 'acc/petty-cash', 'acc/billing','acc/manual-payment','acc/bank-account'],
     },
     {
       type: 'category',
