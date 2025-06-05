@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdoc=self.webpackChunkdoc||[]).push([[9566],{93409:e=>{e.exports=JSON.parse('{"tag":{"label":"login","permalink":"/etos-docs/erp-v2/tags/login","allTagsPath":"/etos-docs/erp-v2/tags","count":1,"items":[{"id":"login","title":"Login","description":"Panduan login ke aplikasi ERP V2","permalink":"/etos-docs/erp-v2/login"}],"unlisted":false}}')}}]);

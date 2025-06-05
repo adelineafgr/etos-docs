@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdoc=self.webpackChunkdoc||[]).push([[8766],{6775:e=>{e.exports=JSON.parse('{"tag":{"label":"area","permalink":"/etos-docs/etl-mobile/tags/area","allTagsPath":"/etos-docs/etl-mobile/tags","count":1,"items":[{"id":"area","title":"Area","description":"Panduan aplikasi ETL Mobile","permalink":"/etos-docs/etl-mobile/area"}],"unlisted":false}}')}}]);

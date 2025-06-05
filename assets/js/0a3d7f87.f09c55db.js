@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdoc=self.webpackChunkdoc||[]).push([[9711],{86238:e=>{e.exports=JSON.parse('{"tags":[{"label":"erp-v1","permalink":"/etos-docs/erp-v1/tags/erp-v-1","count":1},{"label":"overview","permalink":"/etos-docs/erp-v1/tags/overview","count":1}]}')}}]);

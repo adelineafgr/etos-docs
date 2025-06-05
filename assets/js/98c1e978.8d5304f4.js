@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdoc=self.webpackChunkdoc||[]).push([[7347],{57155:s=>{s.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"etos-stars"}')}}]);
