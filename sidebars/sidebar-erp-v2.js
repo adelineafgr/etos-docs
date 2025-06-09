@@ -57,7 +57,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Kontrak Lokasi',
-      items: ['kontrak-lokasi/cico-mode','kontrak-lokasi/kontak-pic-multiple', 'kontrak-lokasi/stock-opname','kontrak-lokasi/request-pindah-jadwal'], 
+      items: ['kontrak-lokasi/kak','kontrak-lokasi/cico-mode','kontrak-lokasi/kontak-pic-multiple', 'kontrak-lokasi/stock-opname','kontrak-lokasi/request-pindah-jadwal'], 
     },
     {
       type: 'category',

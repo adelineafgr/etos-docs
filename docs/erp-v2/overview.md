@@ -13,7 +13,12 @@ Meningkatkan efisiensi dan akurasi dalam pengelolaan bisnis melalui otomatisasi 
 https://erp.etos.app
 
 #### Pengguna Utama
-- Business Development, Keuangan, Marketing, HR&GA, IT, Management
+- Management
+- Business Development
+- Finance
+- Marketing
+- HR&GA
+- IT
 
 #### Aksesbilitas
 - Berbasis web, dapat diakses dari berbagai perangkat dengan koneksi internet.
