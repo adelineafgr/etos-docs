@@ -17,3 +17,11 @@ https://erp.etos.app
 
 #### Aksesbilitas
 - Berbasis web, dapat diakses dari berbagai perangkat dengan koneksi internet.
+
+```mermaid
+graph TD;
+    A[Start] --> B{Decision?};
+    B -- Yes --> C[Process A];
+    B -- No --> D[Process B];
+    C --> E[End];
+    D --> E;
