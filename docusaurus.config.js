@@ -37,6 +37,12 @@ const config = {
     ],
   ],
 
+  // ✅ Tambahkan tema mermaid untuk diagram
+  themes: ['@docusaurus/theme-mermaid'],
+  markdown: {
+    mermaid: true,
+  },
+
   // ✅ Multiple docs plugin
   plugins: [
     [
@@ -175,6 +181,12 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+      },
+      mermaid: { // <--- BAGIAN INI DITAMBAHKAN
+        theme: {
+          light: 'neutral', // Tema default untuk mode terang
+          dark: 'forest',   // Tema default untuk mode gelap
+        },
       },
     }),
 };
