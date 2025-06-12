@@ -18,28 +18,18 @@ function HomepageHeader() {
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
       <div className={styles.buttonWrapper}>
-        <Link className="button button--secondary button--lg" to="/etl-mobile/overview">
-          ETL Mobile 📱
+        <Link className="button button--secondary button--lg" to="/pm/timeline">
+          Project Management
         </Link>
       </div>
       <div className={styles.buttonWrapper}>
-        <Link className="button button--secondary button--lg" to="/etl-standby/overview">
-          ETL Standby 🕒
+        <Link className="button button--secondary button--lg" to="/tech/overview">
+          IT Technical Guides
         </Link>
       </div>
       <div className={styles.buttonWrapper}>
-        <Link className="button button--secondary button--lg" to="/etos-stars/overview">
-          ETOS STARS 🌟
-        </Link>
-      </div>
-      <div className={styles.buttonWrapper}>
-        <Link className="button button--secondary button--lg" to="/erp-v1/overview">
-          ERP-V1 📊
-        </Link>
-      </div>
-      <div className={styles.buttonWrapper}>
-        <Link className="button button--secondary button--lg" to="/erp-v2/overview">
-          ERP-V2 📈
+        <Link className="button button--secondary button--lg" to="/user/overview">
+          Panduan Pengguna
         </Link>
       </div>
     </div>

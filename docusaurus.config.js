@@ -48,47 +48,29 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'etl-mobile',
-        path: 'docs/etl-mobile',
-        routeBasePath: 'etl-mobile',
-        sidebarPath: require.resolve('./sidebars/sidebar-etl-mobile.js'),
+        id: 'user',
+        path: 'docs/user',
+        routeBasePath: 'user',
+        sidebarPath: require.resolve('./sidebars/sidebar-user.js'),
       },
     ],
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'etl-standby',
-        path: 'docs/etl-standby',
-        routeBasePath: 'etl-standby',
-        sidebarPath: require.resolve('./sidebars/sidebar-etl-standby.js'),
+        id: 'pm',
+        path: 'docs/pm',
+        routeBasePath: 'pm', 
+        sidebarPath: require.resolve('./sidebars/sidebar-pm.js'),
       },
     ],
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'etos-stars',
-        path: 'docs/etos-stars',
-        routeBasePath: 'etos-stars',
-        sidebarPath: require.resolve('./sidebars/sidebar-etos-stars.js'),
-      },
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'erp-v1',
-        path: 'docs/erp-v1',
-        routeBasePath: 'erp-v1',
-        sidebarPath: require.resolve('./sidebars/sidebar-erp-v1.js'),
-      },
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'erp-v2',
-        path: 'docs/erp-v2',
-        routeBasePath: 'erp-v2',
-        sidebarPath: require.resolve('./sidebars/sidebar-erp-v2.js'),
-      },
+        id: 'tech',
+        path: 'docs/tech',
+        routeBasePath: 'tech', 
+        sidebarPath: require.resolve('./sidebars/sidebar-tech.js'),
+      }, 
     ],
   ],
 
@@ -105,39 +87,27 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            docsPluginId: 'etl-mobile',
+            docsPluginId: 'pm',
             sidebarId: 'default',
             position: 'left',
-            label: 'ETL Mobile',
+            label: 'Project Management',
           },
           {
             type: 'docSidebar',
-            docsPluginId: 'etl-standby',
+            docsPluginId: 'tech',
             sidebarId: 'default',
             position: 'left',
-            label: 'ETL Standby',
+            label: 'IT Technical Guides',
           },
           {
             type: 'docSidebar',
-            docsPluginId: 'etos-stars',
+            docsPluginId: 'user',
             sidebarId: 'default',
             position: 'left',
-            label: 'ETOS STARS',
+            label: 'Panduan Pengguna',
           },
-          {
-            type: 'docSidebar',
-            docsPluginId: 'erp-v1',
-            sidebarId: 'default',
-            position: 'left',
-            label: 'ERP V1',
-          },
-          {
-            type: 'docSidebar',
-            docsPluginId: 'erp-v2',
-            sidebarId: 'default',
-            position: 'left',
-            label: 'ERP V2',
-          },
+          
+          
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://erp.etos.app/helpdesk/tiket/saya',
