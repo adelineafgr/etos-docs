@@ -363,6 +363,21 @@ const sidebars = {
                 },
             ],
         },
+        //ETOS STARS
+        {
+            type: 'category',
+            label: 'ETOS STARS',
+            items: [
+                'etos-stars/overview',
+                'etos-stars/kebijakan-privasi',
+                'etos-stars/login',
+                'etos-stars/checkin',
+                'etos-stars/checkin-diluar-jarak',
+                'etos-stars/checkout',
+                'etos-stars/checkout-diluar-jarak',
+                'etos-stars/cuti',
+            ],
+        },
     ],
 };
 
