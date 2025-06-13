@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdoc=self.webpackChunkdoc||[]).push([[6971],{90561:e=>{e.exports=JSON.parse('{"tag":{"label":"add","permalink":"/etos-docs/user/tags/add","allTagsPath":"/etos-docs/user/tags","count":1,"items":[{"id":"erp-v1/general/add","title":"Add","description":"Panduan aplikasi ERP V1","permalink":"/etos-docs/user/erp-v1/general/add"}],"unlisted":false}}')}}]);

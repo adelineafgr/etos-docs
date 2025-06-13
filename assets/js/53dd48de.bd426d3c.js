@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdoc=self.webpackChunkdoc||[]).push([[5166],{9713:e=>{e.exports=JSON.parse('{"tag":{"label":"leave","permalink":"/etos-docs/erp-v1/tags/leave","allTagsPath":"/etos-docs/erp-v1/tags","count":1,"items":[{"id":"cal/leave","title":"Leave","description":"Panduan aplikasi ERP V1","permalink":"/etos-docs/erp-v1/cal/leave"}],"unlisted":false}}')}}]);

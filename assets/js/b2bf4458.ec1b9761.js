@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdoc=self.webpackChunkdoc||[]).push([[2924],{66687:e=>{e.exports=JSON.parse('{"tag":{"label":"timeline","permalink":"/etos-docs/pm/tags/timeline","allTagsPath":"/etos-docs/pm/tags","count":1,"items":[{"id":"timeline","title":"Timeline","description":"Project Management","permalink":"/etos-docs/pm/timeline"}],"unlisted":false}}')}}]);
