@@ -376,6 +376,7 @@ const sidebars = {
                 'etos-stars/checkout',
                 'etos-stars/checkout-diluar-jarak',
                 'etos-stars/cuti',
+                'etos-stars/spv',
             ],
         },
     ],
