@@ -9,5 +9,5 @@ tags: [etos-stars, login]
 3. Tekan tombol `Login`
 
 :::note
-Bagi user yang belum memiliki akun atau ada kendala, silahkan hubungu HRD
+Bagi user yang belum memiliki akun atau ada kendala, silahkan hubungi HRD
 :::
